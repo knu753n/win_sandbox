@@ -1,0 +1,20 @@
+<configuration>
+    <vGpu><!--Enable, Disable, Default(disabled)--></vGpu>
+    <Network><!--Disable, Default(enabled with virtual switch)--></Network>
+    <MappedFolders>
+        <MappedFolder>
+            <HostFolder><!--absolute path--></HostFolder>
+            <SandboxFolder><!--absolute path--></SandboxFolder>
+            <ReadOnly><!--true, false--></ReadOnly>
+        </MappedFolder>
+    </MappedFolders>
+    <LogonCommand>
+        <Command><!--command to be invoked--></Command>
+    </LogonCommand>
+    <AudioInput><!--Enable, Disable, Default(enabled)--></AudioInput>
+    <VideoInput><!--Enable, Disable, Default(disabled)--></VideoInput>
+    <ProtectedClient><!--Enable, Disable, Default(Disabled)--></ProtectedClient>
+    <PrinterRedirection><!--Enable, Disable, Default(Disabled)--></PrinterRedirection>
+    <ClibboardRedirection><!--Enable, Disable, Default(Enabled)--></ClibboardRedirection>
+    <MemoryInMB><!--MB--></MemoryInMB>
+</configuration>
